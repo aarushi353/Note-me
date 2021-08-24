@@ -1,2 +1,2 @@
 # To-Do
-A ToDo application where you can add, delete and categorize your tasks.
+A basic ToDo application where you can add, delete and categorize your tasks.
