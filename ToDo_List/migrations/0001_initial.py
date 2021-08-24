@@ -28,9 +28,9 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=300)),
-                ('date_created', models.DateField(default='24-08-2021')),
+                ('date_created', models.DateField(default='2021-08-24')),
                 ('content', models.TextField(blank=True)),
-                ('deadline', models.DateField(default='24-08-2021')),
+                ('deadline', models.DateField(default='2021-08-24')),
                 ('category', models.ForeignKey(default='general', on_delete=django.db.models.deletion.CASCADE, to='ToDo_List.category')),
             ],
             options={

@@ -6,7 +6,7 @@ def index(request):
     categories = Category.objects.all()
 
     if request.method == "POST":
-        if "taskAdded" in request.POST:
+        if "taskAdd" in request.POST:
             title = request.POST["description"]
             date = str(request.POST["date"])
             category = request.POST["category_select"]
