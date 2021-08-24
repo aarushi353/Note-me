@@ -1,2 +1,2 @@
 # To-Do
-A basic todo application made using Django.
+A ToDo application where you can add, delete and categorize your tasks.
