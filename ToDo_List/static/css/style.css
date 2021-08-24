@@ -3,7 +3,6 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-/* app */
 html {
   font-size: 100%;
 }
@@ -11,7 +10,6 @@ body {
   background: #b1f6cb;
   font-family: 'Open Sans',sans-serif;
 }
-/* super basic grid structure */
 .container {
   width: 600px;
   margin: 0 auto;
@@ -247,7 +245,6 @@ footer {
 footer a {
   color: #f39c12;
 }
-/* custom checkboxes */
 .taskCheckbox {
   -webkit-appearance: none;
           appearance: none;
@@ -276,7 +273,7 @@ footer a {
   content: '\f14a';
   color: #16a085;
 }
-/* custom select menu */
+
 .taskCategory {
   -webkit-appearance: none;
           appearance: none;
