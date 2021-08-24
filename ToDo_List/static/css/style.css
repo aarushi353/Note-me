@@ -42,11 +42,13 @@ h1 {
   text-align: center;
   font-weight: 400;
   margin: 0;
+  padding: 5px 20px;
+  margin-bottom: 20px;
 }
 .tagline {
   margin-top: -10px;
   text-align: center;
-  padding: 5px 20px;
+
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
@@ -154,18 +156,18 @@ button {
   font-size: 20px;
 }
 .taskAdd {
-  background: #444;
+  background: #171717;
   padding-left: 31px;
 }
 .taskAdd:hover {
   background: #303030;
 }
 .taskDelete {
-  background: #e74c3c;
+  background: #FF2626;
   padding-left: 30px;
 }
 .taskDelete:hover {
-  background: #c0392b;
+  background: #E40017;
 }
 /* task styles */
 .taskList {
@@ -221,19 +223,19 @@ button {
   background: transparent;
 }
 .category-Personal {
-  background: #2980b9;
+  background: #FF2442;
 }
-.category-Work {
+.category-Tech {
   background: #8e44ad;
 }
-.category-School {
+.category-College {
   background: #f39c12;
 }
-.category-Cleaning {
+.category-Home {
   background: #16a085;
 }
 .category-Other {
-  background: #d35400;
+  background: #7C83FD;
 }
 footer {
   text-align: center;
